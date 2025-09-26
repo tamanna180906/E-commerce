@@ -7,13 +7,13 @@ import tre4 from "../assets/tre4.png"
 
 function Trending() {
   return (
-    <div className='lg:py-[50px] py-0'>
+    <div className='py-[50px]'>
       <Container>
         <div className=''>
-          <h2 className='font-js text-[42px] font-bold text-[#151875] text-center '>Trending Products</h2>
+          <h2 className='font-js text-[42px] font-bold text-[#151875] text-center'>Trending Products</h2>
         </div>
         <div className='flex flex-wrap justify-between items-center mt-7'>
-          <div className='py-[11px] lg:w-[23%] w-[45%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
+          <div className='py-[11px] lg:w-[23%] w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
             <div className='h-[244px] flex justify-center items-center'>
               <img src={tre1}></img>
             </div>
@@ -28,7 +28,7 @@ function Trending() {
               </div>
             </div>
           </div>
-          <div className='py-[11px] lg:w-[23%] w-[45%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
+          <div className='py-[11px] lg:w-[23%] w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
             <div className='h-[244px] flex justify-center items-center'>
               <img src={tre2}></img>
             </div>
@@ -43,7 +43,7 @@ function Trending() {
               </div>
             </div>
           </div>
-          <div className='py-[11px] lg:w-[23%] mt-5 w-[45%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
+          <div className='py-[11px] lg:w-[23%] mt-5 w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
             <div className='h-[244px] flex justify-center items-center'>
               <img src={tre3}></img>
             </div>
@@ -58,7 +58,7 @@ function Trending() {
               </div>
             </div>
           </div>
-          <div className='py-[11px] lg:w-[23%] mt-5 w-[45%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
+          <div className='py-[11px] lg:w-[23%] mt-5 w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
             <div className='h-[244px] w-full flex justify-center items-center'>
               <img src={tre4}></img>
             </div>
