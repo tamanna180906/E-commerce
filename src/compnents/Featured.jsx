@@ -19,7 +19,7 @@ function Featured() {
                 <img src={ban}></img>
             </div>
             <Container>
-                <div className='lg:py-[100px] py-[30px]'>
+                <div className='py-[100px]'>
                 <h2 className='text-center text-[#1A0B5B] lg:text-[42px] text-[30px] font-lt font-bold'>Featured Products</h2>
                 <div className='pt-[50px] flex flex-wrap justify-between'>
                     <div className='lg:w-[23%] w-[48%] group relative bg-[#F6F7FB]'>

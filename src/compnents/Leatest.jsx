@@ -49,7 +49,7 @@ function Leatest() {
     }
 
     return (
-        <div className='py-[50px]'>
+        <div className='lg:pt-[50px] pt-[100px]'>
             <Container>
                 <h2 className='text-center text-[#1A0B5B] text-[42px] font-js font-bold'>Leatest Products</h2>
                 <div className=' py-[30px]'>
