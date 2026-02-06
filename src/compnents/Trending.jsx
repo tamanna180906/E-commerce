@@ -4,6 +4,7 @@ import tre1 from "../assets/tre1.png"
 import tre2 from "../assets/tre2.png"
 import tre3 from "../assets/tre3.png"
 import tre4 from "../assets/tre4.png"
+import tre5 from "../assets/tre5.png"
 
 function Trending() {
   return (
@@ -43,7 +44,7 @@ function Trending() {
               </div>
             </div>
           </div>
-          <div className='py-[11px] lg:w-[23%] mt-5 w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
+          <div className='py-[11px] lg:w-[23%] mt-5 lg:mt-0 w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
             <div className='h-[244px] flex justify-center items-center'>
               <img src={tre3}></img>
             </div>
@@ -58,7 +59,7 @@ function Trending() {
               </div>
             </div>
           </div>
-          <div className='py-[11px] lg:w-[23%] mt-5 w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
+          <div className='py-[11px] lg:w-[23%] mt-5 lg:mt-0 w-[48%] bg-[#FFFFFF] shadow-2xl shadow-[#31208A0D]'>
             <div className='h-[244px] w-full flex justify-center items-center'>
               <img src={tre4}></img>
             </div>
@@ -74,7 +75,17 @@ function Trending() {
             </div>
           </div>
         </div>
-
+        <div className='flex justify-between py-[40px]'>
+          <div className='w-[35%] bg-[#FFF6FB] p-[20px] '>
+            <h2 className='font-js font-bold text-[#151875] text-[20px]'>23% off in all products</h2>
+            <div className='flex justify-between'>
+              <div className='w-[20%]'>
+              <p className='font-js text-[#FB2E86] text-[14px] border-b border-[#FB2E86]'>Shop Now</p>
+              </div>
+              <img className='w-[60%]' src={tre5}></img>
+            </div>
+          </div>
+        </div>
       </Container>
     </div>
   )
