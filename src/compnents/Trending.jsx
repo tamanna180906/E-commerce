@@ -5,6 +5,7 @@ import tre2 from "../assets/tre2.png"
 import tre3 from "../assets/tre3.png"
 import tre4 from "../assets/tre4.png"
 import tre5 from "../assets/tre5.png"
+import tre6 from "../assets/tre6.png"
 
 function Trending() {
   return (
@@ -79,11 +80,16 @@ function Trending() {
           <div className='w-[35%] bg-[#FFF6FB] p-[20px] '>
             <h2 className='font-js font-bold text-[#151875] text-[20px]'>23% off in all products</h2>
             <div className='flex justify-between'>
-              <div className='w-[20%]'>
+              <div className='w-[18%]'>
               <p className='font-js text-[#FB2E86] text-[14px] border-b border-[#FB2E86]'>Shop Now</p>
               </div>
               <img className='w-[60%]' src={tre5}></img>
             </div>
+          </div>
+          <div className='w-[35%] bg-[#EEEFFB] p-[20px] '>
+            <h2 className='font-js font-bold text-[#151875] text-[20px]' >23% off in all products</h2>
+            <p className='font-js w-[27%] text-[#FB2E86] text-[14px] border-b border-[#FB2E86]'>View Collection</p>
+            <img src={tre6} className='ms-auto pt-[20px]'></img>
           </div>
         </div>
       </Container>
