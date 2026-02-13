@@ -7,10 +7,12 @@ import tre4 from "../assets/tre4.png"
 import tre5 from "../assets/tre5.png"
 import tre6 from "../assets/tre6.png"
 import tre7 from "../assets/tre7.png"
+import tre8 from "../assets/tre8.png"
+import tre9 from "../assets/tre9.png"
 
 function Trending() {
   return (
-    <div className='py-[50px]'>
+    <div className='py-[100px]'>
       <Container>
         <div className=''>
           <h2 className='font-js text-[42px] font-bold text-[#151875] text-center'>Trending Products</h2>
@@ -78,28 +80,46 @@ function Trending() {
           </div>
         </div>
         <div className='flex justify-between py-[40px]'>
-          <div className='w-[37%] bg-[#FFF6FB] p-[20px] '>
+          <div className='w-[36%] bg-[#FFF6FB] p-[20px] '>
             <h2 className='font-js font-bold text-[#151875] text-[20px]'>23% off in all products</h2>
             <div className='flex justify-between'>
               <div className='w-[18%]'>
-              <p className='font-js text-[#FB2E86] text-[14px] border-b border-[#FB2E86]'>Shop Now</p>
+                <p className='font-js text-[#FB2E86] text-[14px] border-b border-[#FB2E86]'>Shop Now</p>
               </div>
               <img className='w-[60%]' src={tre5}></img>
             </div>
           </div>
-          <div className='w-[37%] bg-[#EEEFFB] p-[20px] '>
+          <div className='w-[36%] bg-[#EEEFFB] p-[20px] '>
             <h2 className='font-js font-bold text-[#151875] text-[20px]' >23% off in all products</h2>
             <p className='font-js w-[27%] text-[#FB2E86] text-[14px] border-b border-[#FB2E86]'>View Collection</p>
             <img src={tre6} className='ms-auto pt-[20px]'></img>
           </div>
-          <div className='w-[21%]'>
+          <div className='w-[23%]'>
             <div className='flex justify-between items-center'>
               <div className='bg-[#F5F6F8]'>
-                <img className='px-[10px] py-[5px]' src={tre7}></img>
+                <img className='px-[20px] py-[5px]' src={tre7}></img>
               </div>
               <div className=''>
                 <h2 className='text-[#151875] font-js text-[16px] font-bold'>Executive Seat chair</h2>
-                <p className='text-[#151875] font-js text-[12px]'>$32.00</p>
+                <p className='text-[#151875] font-js text-[12px] line-through font-semibold'>$32.00</p>
+              </div>
+            </div>
+            <div className='flex justify-between items-center my-8'>
+              <div className='bg-[#F5F6F8]'>
+                <img className='px-[20px] py-[5px]' src={tre8}></img>
+              </div>
+              <div className=''>
+                <h2 className='text-[#151875] font-js text-[16px] font-bold'>Executive Seat chair</h2>
+                <p className='text-[#151875] font-js text-[12px] line-through font-semibold'>$32.00</p>
+              </div>
+            </div>
+            <div className='flex justify-between items-center'>
+              <div className='bg-[#F5F6F8]'>
+                <img className='px-[20px] py-[5px]' src={tre9}></img>
+              </div>
+              <div className=''>
+                <h2 className='text-[#151875] font-js text-[16px] font-bold'>Executive Seat chair</h2>
+                <p className='text-[#151875] font-js text-[12px] line-through font-semibold'>$32.00</p>
               </div>
             </div>
           </div>
